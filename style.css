@@ -17,5 +17,9 @@
 }
 
 .bg-article {
-  background-image: url("https://picsum.photos/800/400");
+  background: url("https://picsum.photos/800/400") center;
+  background-size: cover;
+}
+
+.side-article {
 }
