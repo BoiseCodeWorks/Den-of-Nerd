@@ -14,12 +14,26 @@
 
 #main-articles {
   height: 50vh;
+  text-shadow: 1px 1px black;
 }
 
 .bg-article {
   background: url("https://picsum.photos/800/400") center;
   background-size: cover;
+  padding-left: 1rem;
 }
 
-.side-article {
+.bg-article p {
+  border-bottom: 1px solid var(--primary);
+  align-self: flex-start;
+  margin-bottom: 0;
+}
+
+.date-drop {
+  position: absolute;
+  bottom: -2em;
+  right: 35%;
+  border: 2px solid var(--primary);
+  background-color: white;
+  padding: 0.25em;
 }
