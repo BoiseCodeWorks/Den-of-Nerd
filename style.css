@@ -4,9 +4,18 @@
 #hot-topics ul {
   list-style: none;
   column-count: 6;
+  padding: 0;
 }
 
 #hot-topics li:hover {
   color: var(--primary);
   cursor: pointer;
+}
+
+#main-articles {
+  height: 50vh;
+}
+
+.bg-article {
+  background-image: url("https://picsum.photos/800/400");
 }
